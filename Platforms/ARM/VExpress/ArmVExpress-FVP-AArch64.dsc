@@ -35,7 +35,7 @@
   DEFINE EDK2_SKIP_PEICORE=1
 !endif
 
-  DT_SUPPORT                     = FALSE
+  DT_SUPPORT                     = TRUE
 
 !include OpenPlatformPkg/Platforms/ARM/VExpress/ArmVExpress.dsc.inc
 
